@@ -1,0 +1,528 @@
+{
+    "general": [
+        {
+            "col": "col-lg-6",
+            "field": "image",
+            "box_type": "regular",
+            "box_bg": "bg-light",
+            "label": "Logo dark",
+            "name": "logo-dark",
+            "description": "Allowed types (JPG,JPEG,PNG,SVG,WEBP)",
+            "path": "images\/",
+            "key": "logo_dark",
+            "value": "themes\/basic\/images\/logo-dark.png",
+            "accept": ".jpg,.jpeg,.png,.svg,webp",
+            "rule": [
+                "nullable",
+                "mimes:jpg,jpeg,png,svg,webp"
+            ]
+        },
+        {
+            "col": "col-lg-6",
+            "field": "image",
+            "box_type": "regular",
+            "box_bg": "bg-dark",
+            "label": "Logo light",
+            "name": "logo-light",
+            "description": "Allowed types (JPG,JPEG,PNG,SVG,WEBP)",
+            "path": "images\/",
+            "key": "logo_light",
+            "value": "themes\/basic\/images\/logo-light.png",
+            "accept": ".jpg,.jpeg,.png,.svg,webp",
+            "rule": [
+                "nullable",
+                "mimes:jpg,jpeg,png,svg,webp"
+            ]
+        },
+        {
+            "col": "col-lg-6",
+            "field": "image",
+            "box_type": "regular",
+            "box_bg": "bg-light",
+            "label": "Favicon",
+            "name": "favicon",
+            "description": "Allowed types (JPG,JPEG,PNG,ICO)",
+            "path": "images\/",
+            "key": "favicon",
+            "value": "themes\/basic\/images\/favicon.jpeg",
+            "accept": ".jpg,.jpeg,.png,.ico",
+            "rule": [
+                "nullable",
+                "mimes:png,jpg,jpeg,ico"
+            ]
+        },
+        {
+            "col": "col-lg-6",
+            "field": "image",
+            "box_type": "regular",
+            "box_bg": "bg-light",
+            "label": "Brand Icon",
+            "name": "brand",
+            "description": "Allowed types (JPG,JPEG,PNG)",
+            "path": "images\/",
+            "key": "brand",
+            "value": "themes\/basic\/images\/brand.jpeg",
+            "accept": ".jpg,.jpeg,.png",
+            "rule": [
+                "nullable",
+                "mimes:png,jpg,jpeg"
+            ]
+        },
+        {
+            "col": "col-12",
+            "field": "image",
+            "box_type": "regular",
+            "box_bg": "bg-light",
+            "label": "Social Image",
+            "description": "Allowed types (JPG,JPEG)",
+            "path": "images\/",
+            "key": "social_image",
+            "value": "themes\/basic\/images\/bwSsvJvTFiOUWtR_1752393435.jpeg",
+            "accept": ".jpg,.jpeg",
+            "rule": [
+                "nullable",
+                "mimes:jpg,jpeg"
+            ]
+        }
+    ],
+    "colors": [
+        {
+            "col": "col-lg-4",
+            "field": "color",
+            "label": "Primary Color",
+            "key": "primary_color",
+            "value": "#f15d5d",
+            "required": true,
+            "rule": [
+                "required",
+                "string",
+                "regex:\/^#[A-Fa-f0-9]{6}$\/"
+            ]
+        },
+        {
+            "col": "col-lg-4",
+            "field": "color",
+            "label": "Secondary Color",
+            "key": "secondary_color",
+            "value": "#191c47",
+            "required": true,
+            "rule": [
+                "required",
+                "string",
+                "regex:\/^#[A-Fa-f0-9]{6}$\/"
+            ]
+        },
+        {
+            "col": "col-lg-4",
+            "field": "color",
+            "label": "Background Color",
+            "key": "background_color",
+            "value": "#F7F7F7",
+            "required": true,
+            "rule": [
+                "required",
+                "string",
+                "regex:\/^#[A-Fa-f0-9]{6}$\/"
+            ]
+        },
+        {
+            "col": "col-lg-4",
+            "field": "color",
+            "label": "Navbar Background Color",
+            "key": "navbar_background_color",
+            "value": "#ffffff",
+            "required": true,
+            "rule": [
+                "required",
+                "string",
+                "regex:\/^#[A-Fa-f0-9]{6}$\/"
+            ]
+        },
+        {
+            "col": "col-lg-4",
+            "field": "color",
+            "label": "Premium Color",
+            "key": "premium_color",
+            "value": "#ff7b17",
+            "required": true,
+            "rule": [
+                "required",
+                "string",
+                "regex:\/^#[A-Fa-f0-9]{6}$\/"
+            ]
+        },
+        {
+            "col": "col-lg-4",
+            "field": "color",
+            "label": "Inner Background Color",
+            "key": "inner_background_color",
+            "value": "#ffffff",
+            "required": true,
+            "rule": [
+                "required",
+                "string",
+                "regex:\/^#[A-Fa-f0-9]{6}$\/"
+            ]
+        },
+        {
+            "col": "col-lg-4",
+            "field": "color",
+            "label": "Elements Background Color",
+            "key": "elements_background_color",
+            "value": "#ffffff",
+            "required": true,
+            "rule": [
+                "required",
+                "string",
+                "regex:\/^#[A-Fa-f0-9]{6}$\/"
+            ]
+        },
+        {
+            "col": "col-lg-4",
+            "field": "color",
+            "label": "Elements Inner Background Color",
+            "key": "elements_inner_background_color",
+            "value": "#f7f7f7",
+            "required": true,
+            "rule": [
+                "required",
+                "string",
+                "regex:\/^#[A-Fa-f0-9]{6}$\/"
+            ]
+        },
+        {
+            "col": "col-lg-4",
+            "field": "color",
+            "label": "Trending Item Badge Color",
+            "key": "trending_item_badge_color",
+            "value": "#39a9ff",
+            "required": true,
+            "rule": [
+                "required",
+                "string",
+                "regex:\/^#[A-Fa-f0-9]{6}$\/"
+            ]
+        },
+        {
+            "col": "col-lg-4",
+            "field": "color",
+            "label": "Sale Item Badge Color",
+            "key": "sale_item_badge_color",
+            "value": "#65c22b",
+            "required": true,
+            "rule": [
+                "required",
+                "string",
+                "regex:\/^#[A-Fa-f0-9]{6}$\/"
+            ]
+        },
+        {
+            "col": "col-lg-4",
+            "field": "color",
+            "label": "Free Item Badge Color",
+            "key": "free_item_badge_color",
+            "value": "#9629d1",
+            "required": true,
+            "rule": [
+                "required",
+                "string",
+                "regex:\/^#[A-Fa-f0-9]{6}$\/"
+            ]
+        },
+        {
+            "col": "col-lg-4",
+            "field": "color",
+            "label": "Premium Item Badge Color",
+            "key": "premium_item_badge_color",
+            "value": "#ff7b17",
+            "required": true,
+            "rule": [
+                "required",
+                "string",
+                "regex:\/^#[A-Fa-f0-9]{6}$\/"
+            ]
+        },
+        {
+            "col": "col-lg-4",
+            "field": "color",
+            "label": "Text Color",
+            "key": "text_color",
+            "value": "#222222",
+            "required": true,
+            "rule": [
+                "required",
+                "string",
+                "regex:\/^#[A-Fa-f0-9]{6}$\/"
+            ]
+        },
+        {
+            "col": "col-lg-4",
+            "field": "color",
+            "label": "Text Muted",
+            "key": "text_muted",
+            "value": "#4c5259",
+            "required": true,
+            "rule": [
+                "required",
+                "string",
+                "regex:\/^#[A-Fa-f0-9]{6}$\/"
+            ]
+        },
+        {
+            "col": "col-lg-4",
+            "field": "color",
+            "label": "Text Green",
+            "key": "text_green",
+            "value": "#28a745",
+            "required": true,
+            "rule": [
+                "required",
+                "string",
+                "regex:\/^#[A-Fa-f0-9]{6}$\/"
+            ]
+        },
+        {
+            "col": "col-lg-4",
+            "field": "color",
+            "label": "Border Color",
+            "key": "border_color",
+            "value": "#ebebeb",
+            "required": true,
+            "rule": [
+                "required",
+                "string",
+                "regex:\/^#[A-Fa-f0-9]{6}$\/"
+            ]
+        },
+        {
+            "col": "col-lg-4",
+            "field": "color",
+            "label": "Item Preview Navbar Background",
+            "key": "item_preview_navbar_background",
+            "value": "#191c47",
+            "required": true,
+            "rule": [
+                "required",
+                "string",
+                "regex:\/^#[A-Fa-f0-9]{6}$\/"
+            ]
+        },
+        {
+            "col": "col-lg-4",
+            "field": "color",
+            "label": "Footer Background Color",
+            "key": "footer_background_color",
+            "value": "#191c47",
+            "required": true,
+            "rule": [
+                "required",
+                "string",
+                "regex:\/^#[A-Fa-f0-9]{6}$\/"
+            ]
+        },
+        {
+            "col": "col-lg-4",
+            "field": "color",
+            "label": "Footer Heading Color",
+            "key": "footer_heading_color",
+            "value": "#ffffff",
+            "required": true,
+            "rule": [
+                "required",
+                "string",
+                "regex:\/^#[A-Fa-f0-9]{6}$\/"
+            ]
+        },
+        {
+            "col": "col-lg-4",
+            "field": "color",
+            "label": "Footer Border Color",
+            "key": "footer_border_color",
+            "value": "#191c47",
+            "required": true,
+            "rule": [
+                "required",
+                "string",
+                "regex:\/^#[A-Fa-f0-9]{6}$\/"
+            ]
+        },
+        {
+            "col": "col-lg-4",
+            "field": "color",
+            "label": "Footer Text Color",
+            "key": "footer_text_color",
+            "value": "#9D9D9D",
+            "required": true,
+            "rule": [
+                "required",
+                "string",
+                "regex:\/^#[A-Fa-f0-9]{6}$\/"
+            ]
+        }
+    ],
+    "home_page": [
+        {
+            "col": "col-lg-6",
+            "field": "image",
+            "box_type": "square-large",
+            "box_bg": "bg-light",
+            "label": "Header Background",
+            "description": "Supported (JPEG, JPG, PNG, SVG, WEBP) Size 1920x700px.",
+            "path": "images\/home-page\/",
+            "key": "header_background",
+            "value": "themes\/basic\/images\/home-page\/JfrTVe6olW9ljAO_1752393557.jpg",
+            "accept": ".jpg,.jpeg,.png,.svg,.webp",
+            "rule": [
+                "nullable",
+                "mimes:jpg,jpeg,png,svg,webp",
+                "max:4096"
+            ]
+        }
+    ],
+    "pages": [
+        {
+            "col": "col-12",
+            "field": "image",
+            "box_type": "regular",
+            "box_bg": "bg-light",
+            "label": "Header Background",
+            "description": "Supported (SVG) Size 1780x250.",
+            "path": "images\/pages\/",
+            "key": "header_background",
+            "value": "themes\/basic\/images\/pages\/bb5qMItd7Z9Ks5k_1752393601.jpg",
+            "accept": ".jpg,.jpeg,.png,.svg,.webp",
+            "rule": [
+                "nullable",
+                "mimes:jpg,jpeg,png,svg,webp",
+                "max:4096"
+            ]
+        }
+    ],
+    "footer": [
+        {
+            "col": "col-lg-6",
+            "field": "toggle",
+            "label": "Footer About",
+            "key": "footer_about",
+            "value": 1,
+            "on": "Show",
+            "off": "Hide",
+            "required": false
+        },
+        {
+            "col": "col-lg-6",
+            "field": "toggle",
+            "label": "Footer Payment Methods",
+            "key": "footer_payment_methods",
+            "value": 1,
+            "on": "Show",
+            "off": "Hide",
+            "required": false
+        },
+        {
+            "col": "col-lg-6",
+            "field": "image",
+            "box_type": "regular",
+            "box_bg": "bg-dark",
+            "label": "Footer Logo",
+            "name": "footer-logo",
+            "description": "Allowed types (JPG,JPEG,PNG,SVG,WEBP)",
+            "path": "images\/",
+            "key": "footer_logo",
+            "value": "themes\/basic\/images\/footer-logo.png",
+            "accept": ".jpg,.jpeg,.png,.svg,webp",
+            "rule": [
+                "nullable",
+                "mimes:jpg,jpeg,png,svg,webp"
+            ]
+        },
+        {
+            "col": "col-lg-6",
+            "field": "image",
+            "box_type": "regular",
+            "box_bg": "bg-light",
+            "label": "Footer Payment Methods Logo",
+            "description": "Allowed types (JPG,JPEG,PNG)",
+            "path": "images\/",
+            "key": "footer_payment_methods_logo",
+            "value": "themes\/basic\/images\/bVLYUuVrLblhp29_1752446845.png",
+            "accept": ".jpg,.jpeg,.png",
+            "rule": [
+                "nullable",
+                "image",
+                "mimes:jpg,jpeg,png"
+            ]
+        },
+        {
+            "col": "col-12",
+            "field": "textarea",
+            "label": "About Content",
+            "key": "footer_about_content",
+            "value": "Rick Development Store is the official digital store of Rick Development Ltd, a forward-thinking software development firm specializing in high-performance templates, source codes, and developer tools.",
+            "rows": 5,
+            "required": true,
+            "rule": [
+                "required",
+                "string",
+                "block_patterns",
+                "max:300"
+            ]
+        },
+        {
+            "col": "col-12 col-lg-6",
+            "field": "input",
+            "type": "number",
+            "label": "Items Sold",
+            "key": "footer_items_sold",
+            "value": "25",
+            "required": false,
+            "rule": [
+                "nullable",
+                "integer",
+                "min:0"
+            ]
+        },
+        {
+            "col": "col-12 col-lg-6",
+            "field": "input",
+            "type": "number",
+            "label": "Sales Amount",
+            "key": "footer_sales_amount",
+            "value": "67425100",
+            "required": false,
+            "rule": [
+                "nullable",
+                "integer",
+                "min:0"
+            ]
+        }
+    ],
+    "extra_codes": [
+        {
+            "col": "col-12",
+            "field": "textarea",
+            "label": "Head Code",
+            "key": "head_code",
+            "value": "<!-- Google Tag Manager -->\r\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\r\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\r\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\r\n'https:\/\/www.googletagmanager.com\/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\r\n})(window,document,'script','dataLayer','GTM-MVLXPPQN');<\/script>\r\n<!-- End Google Tag Manager -->\r\n\r\n<!-- Google tag (gtag.js) -->\r\n<script async src=\"https:\/\/www.googletagmanager.com\/gtag\/js?id=G-KPWJX44213\"><\/script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'G-KPWJX44213');\r\n<\/script>",
+            "rows": 10,
+            "required": false,
+            "rule": [
+                "nullable",
+                "string"
+            ]
+        },
+        {
+            "col": "col-12",
+            "field": "textarea",
+            "label": "Footer Code",
+            "key": "footer_code",
+            "value": "<!-- Google Tag Manager (noscript) -->\r\n<noscript><iframe src=\"https:\/\/www.googletagmanager.com\/ns.html?id=GTM-MVLXPPQN\"\r\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"><\/iframe><\/noscript>\r\n<!-- End Google Tag Manager (noscript) -->",
+            "rows": 10,
+            "required": false,
+            "rule": [
+                "nullable",
+                "string"
+            ]
+        }
+    ]
+}
