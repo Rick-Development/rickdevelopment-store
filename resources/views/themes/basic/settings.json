@@ -44,7 +44,7 @@
             "description": "Allowed types (JPG,JPEG,PNG,ICO)",
             "path": "images\/",
             "key": "favicon",
-            "value": "themes\/basic\/images\/favicon.jpeg",
+            "value": "themes\/basic\/images\/favicon.png",
             "accept": ".jpg,.jpeg,.png,.ico",
             "rule": [
                 "nullable",
@@ -61,7 +61,7 @@
             "description": "Allowed types (JPG,JPEG,PNG)",
             "path": "images\/",
             "key": "brand",
-            "value": "themes\/basic\/images\/brand.jpeg",
+            "value": "themes\/basic\/images\/brand.png",
             "accept": ".jpg,.jpeg,.png",
             "rule": [
                 "nullable",
@@ -91,7 +91,7 @@
             "field": "color",
             "label": "Primary Color",
             "key": "primary_color",
-            "value": "#f15d5d",
+            "value": "#191c47",
             "required": true,
             "rule": [
                 "required",
@@ -104,7 +104,7 @@
             "field": "color",
             "label": "Secondary Color",
             "key": "secondary_color",
-            "value": "#191c47",
+            "value": "#4f46e5",
             "required": true,
             "rule": [
                 "required",
@@ -389,7 +389,7 @@
             "description": "Supported (SVG) Size 1780x250.",
             "path": "images\/pages\/",
             "key": "header_background",
-            "value": "themes\/basic\/images\/pages\/bb5qMItd7Z9Ks5k_1752393601.jpg",
+            "value": "themes\/basic\/images\/pages\/x3bKvZXxoBob5tc_1763919837.png",
             "accept": ".jpg,.jpeg,.png,.svg,.webp",
             "rule": [
                 "nullable",
@@ -414,7 +414,7 @@
             "field": "toggle",
             "label": "Footer Payment Methods",
             "key": "footer_payment_methods",
-            "value": 1,
+            "value": 0,
             "on": "Show",
             "off": "Hide",
             "required": false
@@ -445,7 +445,7 @@
             "description": "Allowed types (JPG,JPEG,PNG)",
             "path": "images\/",
             "key": "footer_payment_methods_logo",
-            "value": "themes\/basic\/images\/bVLYUuVrLblhp29_1752446845.png",
+            "value": "themes\/basic\/images\/gN6a4sNxF5W14Kt_1763855312.png",
             "accept": ".jpg,.jpeg,.png",
             "rule": [
                 "nullable",
@@ -458,7 +458,7 @@
             "field": "textarea",
             "label": "About Content",
             "key": "footer_about_content",
-            "value": "Rick Development Store is the official digital store of Rick Development Ltd, a forward-thinking software development firm specializing in high-performance templates, source codes, and developer tools.",
+            "value": "Zerion is the official digital store of Rick Group, a forward-thinking technology firm specializing in high-performance templates, source codes, and developer tools.",
             "rows": 5,
             "required": true,
             "rule": [

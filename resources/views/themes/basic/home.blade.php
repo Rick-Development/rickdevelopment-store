@@ -8,12 +8,12 @@
                 <div class="col-lg-10 col-xl-9 col-xxl-8 mx-auto text-center">
                     <h1 class="header-title header-title-home" data-aos="fade-right" data-aos-duration="1000">
                        
-                        {{ translate(' Luxury Templates.Powerful Code. Everything You Need.') }}
+                        {{ translate(' Elite Digital Templates. Modern Designs. Ready to Deploy.') }}
                     </h1>
                 </div>
                 <div class="col-lg-10 col-xl-9 col-xxl-7 mx-auto text-center">
                     <p class="header-text" data-aos="fade-left" data-aos-duration="1000">
-                        {{ translate('Fuel your next project with high-quality, developer-ready tools and resources.') }}
+                        {{ translate('A complete toolkit—templates, code, and components—all in one place.') }}
                     </p>
                     <div data-aos="fade-right" data-aos-duration="1000">
                         @include('themes.basic.partials.search-form', [
